@@ -1,9 +1,14 @@
 # NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor
 A basic ncd.io dashboard for machine up time monitoring sensor.
 
+Product info: https://ncd.io/blog/machine-up-time-monitoring-product-manual/
+
 This project is a basic subflow developed by ncd based on Node-RED and the new Dashboard 2.0 module, which allows you to visualize the data provided by the “Machine Up Time Monitoring-Sensor” in an intuitive way.
 
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/9877645e-6d23-4136-9783-f55c6bb11262)
+
+For more information visit:
+[ncd.io](https://ncd.io/)
 
 ## Subflow characteristics:
 
@@ -202,4 +207,6 @@ Then click on the “Delete” button at the top of the window.
 
 ## Conclusion
 
+For more information visit:
+[ncd.io](https://ncd.io/)
 
