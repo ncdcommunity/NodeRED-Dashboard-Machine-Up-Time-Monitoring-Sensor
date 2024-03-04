@@ -10,6 +10,7 @@ This project is a basic subflow developed by ncd based on Node-RED and the new D
 For more information visit:
 [ncd.io](https://ncd.io/)
 
+
 ## Subflow characteristics:
 
 It allows to visualize the data in real time of the variables sent by the sensor:
@@ -36,6 +37,7 @@ It is possible to view the relevant sensor data in a "Data" tab.
 > [!IMPORTANT]
 > This Subflow only works with type sensors (“sensor_type”: 108) which corresponds to Machine Up Time Monitoring.​
 
+
 ## Requirements/Dependencies:
 
 To import this subflow it is necessary to have previously installed:
@@ -43,6 +45,7 @@ To import this subflow it is necessary to have previously installed:
 - Node-RED 
 - @ncd-io/node-red-enterprise-sensors 
 - @flowfuse/node-red-dashboard 
+
 
 ## Install "ncd-io/node-red-enterprise-sensors":
 
@@ -53,7 +56,6 @@ Within your Node-RED instance go to the main menu (top right) and select the "Ma
 In the window, select the "Install" tab:
 
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/a9a9421f-4a99-4dd4-b15f-0f5f0a6707c9)
-
 
 In the search field enter "@ncd" you will see the following:
 
@@ -67,6 +69,7 @@ Once the process is completed you will see the following window:
 
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/079747b8-a929-433d-ae95-407424349af5)
 
+
 ## For installing Dashboard 2.0:
 
 FlowFuse's Node-RED Dashboard 2.0 is available in the Node-RED Palette Manager. To install it:
@@ -79,12 +82,13 @@ Open the menu in the top-right of Node-RED
 
 Source: https://dashboard.flowfuse.com/getting-started.html
 
+
 ## Procedure to import Sub-flow:
 
 ### Step 1 - Copy JSON 
-Copy the raw JSON file "/MachineUpTimeMonitoring.json" from this repository.
+Copy the raw JSON file "node-red/Machine-Up-Time-Monitor-Dashboard.json" from this repository: 
 
---- insert imagen ---
+![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/be5f26c8-61fb-4f97-8400-52ea46c8c77c)
 
 ### Step 2 - Import nodes
 Go to Node-RED, you can add a new flow in the node editor of node-red (optional):
@@ -169,6 +173,7 @@ The main menu: where you can navigate between the tabs (Machine Up Time Monitor 
 
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/0e1cb03e-6aa5-4bbd-b22f-fc44202985cc)
 
+
 ## Layout
 
 It is possible that the distribution of the indicators inside the dashboar is different depending on the size of your monitor, it is possible to adjust to a better distributed view by adjusting the zoom of the web browser.
@@ -193,6 +198,7 @@ Where you will have to scroll to navigate between the dashboard elements, this w
 
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/95ebe77a-4d3f-492b-bb39-9b5d4637cf43)
 
+
 ## Possible errors during subflow import
 
 If you import the flow without having previously installed Dashboard 2, you will get a message like the following:
@@ -204,6 +210,7 @@ So you must delete the subflow and install the module **“@flowfuse/node-red-da
 ![image](https://github.com/ncdcommunity/NodeRED-Dashboard-Machine-Up-Time-Monitoring-Sensor/assets/159818736/cd045a99-7b54-4ae4-bbfa-0c011023be02)
 
 Then click on the “Delete” button at the top of the window.
+
 
 ## Conclusion
 
